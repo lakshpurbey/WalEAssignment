@@ -12,6 +12,8 @@ import Foundation
 
 class ApodVCTest: XCTestCase {
 
+    var viewController = ApodVC() // property on the test class
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
@@ -28,6 +30,10 @@ class ApodVCTest: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    override func setUp() {
+        super.setUp()
+
+    }
     func testExample() throws {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
@@ -38,10 +44,19 @@ class ApodVCTest: XCTestCase {
             app.launch()
     }
 
-    func createEntry(app: XCUIApplication, desc: String){
-           let textField = app.textFields["Select Date"]
-           textField.tap()
-           // Line 7
-           app.datePickers.buttons["Done"].tap()
-       }
+//    func createEntry(app: XCUIApplication, desc: String){
+//           let textField = app.textFields["Select Date"]
+//           textField.tap()
+//           // Line 7
+//           app.datePickers.buttons["Done"].tap()
+//       }
+
+//    func testOutletExist() {
+//        XCTAssertNotNil(ApodVC.doneAction)
+//    }
+//
+//    func testActionIsConnected() {
+////        XCTAssertTrue(ApodVC.outlet.action == "doneAction:")
+//    }
+
 }
