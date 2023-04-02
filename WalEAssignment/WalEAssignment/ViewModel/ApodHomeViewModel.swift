@@ -36,6 +36,7 @@ class ApodHomeViewModel {
         if(apodApiResponse.media_type == Constants.MediaTypeImage) {
             self.media_type = .image
         }else {
+            self.media_type = .video
         }
     }
 

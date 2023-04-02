@@ -26,6 +26,10 @@
 		0483CB5929D9679000072D15 /* ApodResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483CB5829D9679000072D15 /* ApodResource.swift */; };
 		0483CB5B29D967AD00072D15 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483CB5A29D967AD00072D15 /* Common.swift */; };
 		0483CB5D29D9686B00072D15 /* Config in Resources */ = {isa = PBXBuildFile; fileRef = 0483CB5C29D9686B00072D15 /* Config */; };
+		0483CB5F29D9993F00072D15 /* ApodVMTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483CB5E29D9993F00072D15 /* ApodVMTest.swift */; };
+		0483CB6129D99AEB00072D15 /* ConstantsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483CB6029D99AEB00072D15 /* ConstantsTest.swift */; };
+		0483CB6329D99B5300072D15 /* ApiEndpointsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483CB6229D99B5300072D15 /* ApiEndpointsTest.swift */; };
+		0483CB6529D99C5500072D15 /* ApodVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483CB6429D99C5500072D15 /* ApodVCTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		0483CB5829D9679000072D15 /* ApodResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodResource.swift; sourceTree = "<group>"; };
 		0483CB5A29D967AD00072D15 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		0483CB5C29D9686B00072D15 /* Config */ = {isa = PBXFileReference; lastKnownFileType = text; path = Config; sourceTree = "<group>"; };
+		0483CB5E29D9993F00072D15 /* ApodVMTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodVMTest.swift; sourceTree = "<group>"; };
+		0483CB6029D99AEB00072D15 /* ConstantsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTest.swift; sourceTree = "<group>"; };
+		0483CB6229D99B5300072D15 /* ApiEndpointsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpointsTest.swift; sourceTree = "<group>"; };
+		0483CB6429D99C5500072D15 /* ApodVCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodVCTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +149,9 @@
 			isa = PBXGroup;
 			children = (
 				0483CB2829D95F6600072D15 /* WalEAssignmentTests.swift */,
+				0483CB5E29D9993F00072D15 /* ApodVMTest.swift */,
+				0483CB6029D99AEB00072D15 /* ConstantsTest.swift */,
+				0483CB6229D99B5300072D15 /* ApiEndpointsTest.swift */,
 			);
 			path = WalEAssignmentTests;
 			sourceTree = "<group>";
@@ -150,6 +161,7 @@
 			children = (
 				0483CB3229D95F6600072D15 /* WalEAssignmentUITests.swift */,
 				0483CB3429D95F6600072D15 /* WalEAssignmentUITestsLaunchTests.swift */,
+				0483CB6429D99C5500072D15 /* ApodVCTest.swift */,
 			);
 			path = WalEAssignmentUITests;
 			sourceTree = "<group>";
@@ -364,7 +376,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0483CB6129D99AEB00072D15 /* ConstantsTest.swift in Sources */,
+				0483CB5F29D9993F00072D15 /* ApodVMTest.swift in Sources */,
 				0483CB2929D95F6600072D15 /* WalEAssignmentTests.swift in Sources */,
+				0483CB6329D99B5300072D15 /* ApiEndpointsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +389,7 @@
 			files = (
 				0483CB3529D95F6600072D15 /* WalEAssignmentUITestsLaunchTests.swift in Sources */,
 				0483CB3329D95F6600072D15 /* WalEAssignmentUITests.swift in Sources */,
+				0483CB6529D99C5500072D15 /* ApodVCTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

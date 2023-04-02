@@ -16,10 +16,12 @@ struct Constants {
     static let NoImage = "no-image-icon"
     static let ApodDateFormat = "yyyy-MM-dd"
     static let MediaTypeImage = "image"
+    static let MediaTypeVideo = "video"
     static let CachedResponseKey = "CachedResponse"
 
     enum MediaType {
         case image
+        case video
     }
 
     static func getAPIKey() -> String {
