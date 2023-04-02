@@ -38,4 +38,10 @@ class ApodVCTest: XCTestCase {
             app.launch()
     }
 
+    func createEntry(app: XCUIApplication, desc: String){
+           let textField = app.textFields["Select Date"]
+           textField.tap()
+           // Line 7
+           app.datePickers.buttons["Done"].tap()
+       }
 }
