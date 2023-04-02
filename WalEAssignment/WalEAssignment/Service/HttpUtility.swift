@@ -27,7 +27,7 @@ struct HttpUtility
                 }
             }else {
                 debugPrint("API Failed")
-                _=completionHandler(nil,error?.localizedDescription)
+                _=completionHandler(nil,"We are not connected to the internet, showing you the last image we have.")
             }
 
         }.resume()
